@@ -25,3 +25,5 @@ console.log('object key data' , map.get(null));
 
 // console.log(weakMap.get(obj1));
 // console.log(weakMap);
+
+console.log("Working");
