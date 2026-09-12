@@ -50,7 +50,6 @@ function loadScript(src, callback) {
 
     console.log("D. script.src set to", src);
 
-
     // What should happen if loading succeeds?
     script.onload = () => {
 
@@ -73,7 +72,6 @@ function loadScript(src, callback) {
 
     // Add script to document
     document.head.append(script);
-
     console.log("G. script appended to document");
 }
 
