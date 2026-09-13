@@ -79,7 +79,7 @@ function loadScript(src, callback) {
 console.log("H. Calling loadScript() for hello.js");
 
 
-loadScript('/my/hello.js', function(error, script) {
+loadScript('./hello.js', function(error, script) {
 
     console.log("I. First callback started");
 
@@ -100,7 +100,7 @@ loadScript('/my/hello.js', function(error, script) {
     console.log("K. Calling loadScript() for world.js");
 
 
-    loadScript('/my/world.js', function(error, script) {
+    loadScript('./world.js', function(error, script) {
 
         console.log("L. Second callback started");
 
